@@ -21,8 +21,8 @@ const myMap = new Map([
   ["color", "Amarillo"],
 ]);
 console.log(myMap);
-console.log(myMap.keys("moroso"));
-console.log(myMap.keys("hola"));
+console.log(myMap.has("moroso"));
+console.log(myMap.has("hola"));
 console.log(myMap.size);
 myMap.delete("agarrado");
 console.log(myMap);
